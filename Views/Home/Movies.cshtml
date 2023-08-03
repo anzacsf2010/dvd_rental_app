@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+@model IList<dvd_rental_app.Models.Movie>
+
+@{
+    ViewData["Title"] = "Movie List";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Overview</th>
+            <th>Release date</th>
+        </tr>
+        @for (var item = 0; item < Model.Count; item++)
+        {
+            <tr>
+                <td>@Model[item].MovieId</td>
+                <td>@Model[item].Title</td>
+                <td>@Model[item].Overview</td>
+                <td>@Model[item].ReleaseDate</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>Please log in to view this page.</p>
+}
+
+
