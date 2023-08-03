@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mXW78BURljvop7GiLsrmxmXp6SFVxtAb56Mhob6sdvnbfiHlJt2nAYaei7da/W7OVa7jZiF+PPkpNGX+ryucUg==",
+  "dgSpecHash": "cjXR/wSFZQ/xNz90TuBG5i5NOSYISNWdyLQXAMQQmnLE5VruIgErwozK9WtmtcF3pf6vuKFLR1dbMCE1dRlG1A==",
   "success": true,
   "projectFilePath": "/Users/andy/Personal-Projects-Repos/dvd_rental_app/dvd_rental_app.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "/Users/andy/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
     "/Users/andy/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/andy/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/andy/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
+    "/Users/andy/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "/Users/andy/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/andy/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
     "/Users/andy/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
