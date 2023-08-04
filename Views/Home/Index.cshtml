@@ -1,8 +1,19 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Please sign in to see list of movies by clicking on the "Movies" tab.</p>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <h5>You're signed in. Please use the "Movies" tab to view the list of available movies.</h5>
+    }
+    else
+    {
+        <h5>Please sign in to see list of available movies by clicking on the "Movies" tab.</h5>
+    }
 </div>
