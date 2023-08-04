@@ -15,6 +15,13 @@
     <None Remove="Migrations\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\launchSettings.json_production">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
@@ -32,5 +39,8 @@
     <Folder Include="Data\Migrations\" />
     <Folder Include="Areas\Identity\Data\" />
     <Folder Include="Migrations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Properties\launchSettings %28copy%29.json" />
   </ItemGroup>
 </Project>
