@@ -1,0 +1,34 @@
+﻿@model IList<dvd_rental_app.Models.Movie>
+
+@{
+    ViewData["Title"] = "Movies by genre";
+}
+<h1 class="mb-3">@ViewData["Title"] | @ViewBag.Genre</h1>
+
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Top cast</th>
+        <th>Release date</th>
+        <th>Genre</th>
+    </tr>
+    @for (var item = 0; item < Model.Count; item++)
+    {
+        <tr>
+            <td>
+                <a asp-controller="Home" asp-action="MovieDetails" asp-route-id="@Model[item].MovieId">@Model[item].MovieId</a>
+            </td>
+            <td>@Model[item].Title</td>
+            <td>@Model[item].Cast</td>
+            <td>@Model[item].ReleaseDate</td>
+            <td>@Model[item].Genre</td>
+        </tr>
+    }
+</table>
+
+<div class="mt-4">
+    <a type="button" class="btn btn-primary" asp-controller="Home" asp-action="Movies">Return to movie list</a>
+</div>
+

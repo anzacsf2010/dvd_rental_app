@@ -6,7 +6,7 @@
 @{
     ViewData["Title"] = "Movie List";
 }
-<h1>@ViewData["Title"]</h1>
+<h1 class="mb-3">@ViewData["Title"]</h1>
 
 @if (SignInManager.IsSignedIn(User))
 {
@@ -14,16 +14,20 @@
         <tr>
             <th>ID</th>
             <th>Title</th>
-            <th>Overview</th>
+            <th>Top cast</th>
             <th>Release date</th>
+            <th>Genre</th>
         </tr>
         @for (var item = 0; item < Model.Count; item++)
         {
             <tr>
-                <td>@Model[item].MovieId</td>
+                <td>
+                    <a asp-controller="Home" asp-action="MovieDetails" asp-route-id="@Model[item].MovieId">@Model[item].MovieId</a>
+                </td>
                 <td>@Model[item].Title</td>
-                <td>@Model[item].Overview</td>
+                <td>@Model[item].Cast</td>
                 <td>@Model[item].ReleaseDate</td>
+                <td>@Model[item].Genre</td>
             </tr>
         }
     </table>
@@ -32,5 +36,3 @@ else
 {
     <p>Please log in to view this page.</p>
 }
-
-
