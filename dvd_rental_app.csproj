@@ -13,6 +13,7 @@
     <None Remove="Data\Migrations\" />
     <None Remove="Areas\Identity\Data\" />
     <None Remove="Migrations\" />
+    <None Remove="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\launchSettings.json_production">
@@ -32,6 +33,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
+    <PackageReference Include="NewRelic.Agent" Version="10.13.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
   </ItemGroup>
 
@@ -39,6 +41,7 @@
     <Folder Include="Data\Migrations\" />
     <Folder Include="Areas\Identity\Data\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Properties\launchSettings %28copy%29.json" />

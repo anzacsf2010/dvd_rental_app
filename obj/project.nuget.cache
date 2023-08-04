@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l9SQ9JTjbo2tL31KVGs36xudt73x7cWBW6959IbZNhiyNppXtu6sl8b2LyfdiXaICmI37LMbJAKTclff5t0ySQ==",
+  "dgSpecHash": "Msd7alcSn+20cfnpDIV+nDSBdp7LtC63kFVjCgRhSTyUW1eyz9fODvKzgJziTnTCl+3cK5DvyVHQMb3Y/gB8Jg==",
   "success": true,
   "projectFilePath": "/Users/andy/Personal-Projects-Repos/dvd_rental_app/dvd_rental_app.csproj",
   "expectedPackageFiles": [
@@ -113,6 +113,7 @@
     "/Users/andy/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/andy/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/andy/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
+    "/Users/andy/.nuget/packages/newrelic.agent/10.13.0/newrelic.agent.10.13.0.nupkg.sha512",
     "/Users/andy/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/andy/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
     "/Users/andy/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
