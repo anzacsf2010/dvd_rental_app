@@ -12,12 +12,532 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/Users/andy/.nuget/packages/" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/LICENSE.txt" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/LICENSE.txt')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/LICENSE.txt</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/LICENSE.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Core.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Core.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/NewRelic.Agent.Core.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/NewRelic.Agent.Core.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Extensions.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Agent.Extensions.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/NewRelic.Agent.Extensions.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/NewRelic.Agent.Extensions.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Api.Agent.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Api.Agent.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/NewRelic.Api.Agent.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/NewRelic.Api.Agent.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Profiler.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/NewRelic.Profiler.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/NewRelic.Profiler.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/NewRelic.Profiler.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/README.md" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/README.md')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/README.md</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/README.md</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/THIRD_PARTY_NOTICES.txt" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/THIRD_PARTY_NOTICES.txt')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/THIRD_PARTY_NOTICES.txt</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/THIRD_PARTY_NOTICES.txt</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/agentinfo.json" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/agentinfo.json')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/agentinfo.json</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/agentinfo.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Core.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Core.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Core.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Core.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Parsing.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Parsing.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Parsing.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Parsing.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Storage.AsyncLocal.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.AspNetCore.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.CosmosDb.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.Elasticsearch.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.HttpClient.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.Log4NetLogging.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.MicrosoftExtensionsLogging.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.Misc.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.MongoDb26.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.NLogLogging.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.NServiceBus.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.RabbitMq.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.SerilogLogging.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.Sql.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.Sql.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.Instrumentation.xml</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/NewRelic.Providers.Wrapper.StackExchangeRedis2Plus.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/extension.xsd" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/extensions/extension.xsd')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/extensions/extension.xsd</TargetPath>
+      <DestinationSubDirectory>newrelic/extensions/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/extensions/extension.xsd</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/libNewRelicProfiler.so" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/libNewRelicProfiler.so')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/libNewRelicProfiler.so</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/libNewRelicProfiler.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/linux-arm64/libNewRelicProfiler.so" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/linux-arm64/libNewRelicProfiler.so')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/linux-arm64/libNewRelicProfiler.so</TargetPath>
+      <DestinationSubDirectory>newrelic/linux-arm64/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/linux-arm64/libNewRelicProfiler.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/logs/placeholder" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/logs/placeholder')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/logs/placeholder</TargetPath>
+      <DestinationSubDirectory>newrelic/logs/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/logs/placeholder</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/newrelic.config" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/newrelic.config')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/newrelic.config</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/newrelic.config</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/newrelic.xsd" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/newrelic.xsd')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/newrelic.xsd</TargetPath>
+      <DestinationSubDirectory>newrelic/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/newrelic.xsd</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/x86/NewRelic.Profiler.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent/10.13.0/contentFiles/any/netstandard2.0/newrelic/x86/NewRelic.Profiler.dll')">
+      <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
+      <NuGetPackageVersion>10.13.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>newrelic/x86/NewRelic.Profiler.dll</TargetPath>
+      <DestinationSubDirectory>newrelic/x86/</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>newrelic/x86/NewRelic.Profiler.dll</Link>
+    </None>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/7.0.9/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/7.0.9/buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design/7.0.9/build/net6.0/Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design/7.0.9/build/net6.0/Microsoft.EntityFrameworkCore.Design.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui/7.0.9/build/Microsoft.AspNetCore.Identity.UI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui/7.0.9/build/Microsoft.AspNetCore.Identity.UI.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewRelic_Agent Condition=" '$(PkgNewRelic_Agent)' == '' ">/Users/andy/.nuget/packages/newrelic.agent/10.13.0</PkgNewRelic_Agent>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/andy/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_CodeAnalysis_AnalyzerUtilities Condition=" '$(PkgMicrosoft_CodeAnalysis_AnalyzerUtilities)' == '' ">/Users/andy/.nuget/packages/microsoft.codeanalysis.analyzerutilities/3.3.0</PkgMicrosoft_CodeAnalysis_AnalyzerUtilities>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/Users/andy/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.9</PkgMicrosoft_EntityFrameworkCore_Tools>

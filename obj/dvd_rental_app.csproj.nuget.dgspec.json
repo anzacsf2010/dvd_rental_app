@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[7.0.8, )"
             },
+            "NewRelic.Agent": {
+              "target": "Package",
+              "version": "[10.13.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"
