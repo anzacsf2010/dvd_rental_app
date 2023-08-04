@@ -12,7 +12,7 @@ build_property.RootNamespace = dvd_rental_app
 build_property.ProjectDir = /Users/andy/Personal-Projects-Repos/dvd_rental_app/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/andy/Personal-Projects-Repos/dvd_rental_app
 build_property._RazorSourceGeneratorDebug = 
 

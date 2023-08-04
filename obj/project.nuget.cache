@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Msd7alcSn+20cfnpDIV+nDSBdp7LtC63kFVjCgRhSTyUW1eyz9fODvKzgJziTnTCl+3cK5DvyVHQMb3Y/gB8Jg==",
+  "dgSpecHash": "q0BPQGNbQ7Zirb5Mdpbr0hUyukB5K5h7JwE6IJXbGtp/WY4Drn1ej9N0MDfRg786c//rRrs3W9TtPEI/95JMOw==",
   "success": true,
   "projectFilePath": "/Users/andy/Personal-Projects-Repos/dvd_rental_app/dvd_rental_app.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,8 @@
     "/Users/andy/.nuget/packages/microsoft.aspnetcore.diagnostics.entityframeworkcore/7.0.9/microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.9.nupkg.sha512",
     "/Users/andy/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/7.0.9/microsoft.aspnetcore.identity.entityframeworkcore.7.0.9.nupkg.sha512",
     "/Users/andy/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.9/microsoft.aspnetcore.identity.ui.7.0.9.nupkg.sha512",
+    "/Users/andy/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/6.0.0/microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+    "/Users/andy/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.9/microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.9.nupkg.sha512",
     "/Users/andy/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.11/microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "/Users/andy/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/andy/.nuget/packages/microsoft.build/17.3.2/microsoft.build.17.3.2.nupkg.sha512",
