@@ -2245,6 +2245,15 @@
           }
         }
       },
+      "NewRelic.Agent.Api/10.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -7448,6 +7457,26 @@
         "tools/install.ps1"
       ]
     },
+    "NewRelic.Agent.Api/10.13.0": {
+      "sha512": "emJVdFK9GXdwMik0SI6rJFmEpgoli9eWBLBwpQYoCpHewtbFcYDXWdON8jmvVR6zTip5xzgiRf7pNdMzw4g7iA==",
+      "type": "package",
+      "path": "newrelic.agent.api/10.13.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD_PARTY_NOTICES.txt",
+        "images/icon.png",
+        "lib/net462/NewRelic.Api.Agent.dll",
+        "lib/netstandard2.0/NewRelic.Api.Agent.dll",
+        "newrelic.agent.api.10.13.0.nupkg.sha512",
+        "newrelic.agent.api.nuspec",
+        "tools/NewRelicHelper.psm1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -11827,6 +11856,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.8",
       "NewRelic.Agent >= 10.13.0",
+      "NewRelic.Agent.Api >= 10.13.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4"
     ]
   },
@@ -11898,6 +11928,10 @@
             "version": "[7.0.8, )"
           },
           "NewRelic.Agent": {
+            "target": "Package",
+            "version": "[10.13.0, )"
+          },
+          "NewRelic.Agent.Api": {
             "target": "Package",
             "version": "[10.13.0, )"
           },

@@ -4,6 +4,8 @@ using dvd_rental_app.Models;
 using dvd_rental_app.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using NewRelic.Api.Agent;
+using Microsoft.AspNetCore.Identity;
 
 namespace dvd_rental_app.Controllers;
 
@@ -11,18 +13,20 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly ApplicationDbContext _db;
+    private readonly UserManager<IdentityUser> _userManager;
 
 
-    public HomeController(ILogger<HomeController> logger, ApplicationDbContext db)
+    public HomeController(ILogger<HomeController> logger, ApplicationDbContext db, UserManager<IdentityUser> userManager)
     {
         _logger = logger;
         _db = db;
+        _userManager = userManager;
     }
 
 
     public DbSet<Movie> Movie { get; set; } = default!;
 
-
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
     [Route("/")]
     [Route("Home/")]
     [Route("Home/Index")]
@@ -42,8 +46,23 @@ public class HomeController : Controller
             return NotFound();
         }
 
+        var user = await _userManager.GetUserAsync(HttpContext.User);
+        if (user == null)
+        {
+            _logger.LogError("User not logged in. Please sign in and try again!");
+            return NotFound();
+        }
+
+        string userId = user.Id;
+
+        IAgent agent = NewRelic.Api.Agent.NewRelic.GetAgent();
+        ITransaction transaction = agent.CurrentTransaction;
+        transaction.SetUserId(userId);
+        transaction.AddCustomAttribute("TransactionStart", DateTime.Now);
+        
         var MovieList = await _db.Movie.ToListAsync();
 
+        transaction.AddCustomAttribute("TransactionEnd", DateTime.Now);
         _logger.LogInformation("Movie list retrieved successfully.");
         return View(MovieList);
     }
@@ -60,7 +79,24 @@ public class HomeController : Controller
             _logger.LogError("Could not find a movie with the specified ID. Pelase check and try again!");
         }
 
+        var user = await _userManager.GetUserAsync(HttpContext.User);
+        if (user == null)
+        {
+            _logger.LogError("User not logged in. Please sign in and try again!");
+            return NotFound();
+        }
+
+        string userId = user.Id;
+
+        IAgent agent = NewRelic.Api.Agent.NewRelic.GetAgent();
+        ITransaction transaction = agent.CurrentTransaction;
+        transaction.SetUserId(userId);
+        transaction.AddCustomAttribute("TransactionStart", DateTime.Now);
+        transaction.AddCustomAttribute("MovieId", movie.MovieId.ToString());
+        transaction.AddCustomAttribute("MovieName", movie.Title.ToString());
+
         _logger.LogInformation("Movie list retrieved successfully.");
+        transaction.AddCustomAttribute("TransactionEnd", DateTime.Now);
         return View(movie);
     }
 
@@ -82,6 +118,7 @@ public class HomeController : Controller
         return View(movies);
     }
 
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

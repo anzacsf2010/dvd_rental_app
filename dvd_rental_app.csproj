@@ -36,6 +36,7 @@
     <PackageReference Include="NewRelic.Agent" Version="10.13.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.9" />
+    <PackageReference Include="NewRelic.Agent.Api" Version="10.13.0" />
   </ItemGroup>
 
   <ItemGroup>
