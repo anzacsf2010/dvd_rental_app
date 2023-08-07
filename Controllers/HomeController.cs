@@ -43,6 +43,7 @@ public class HomeController : Controller
 
 
     [Trace]
+    [Authorize]
     [Route("Home/Movies")]
     public async Task<IActionResult> Movies()
     {

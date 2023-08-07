@@ -614,3 +614,4 @@
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/obj/Debug/net7.0/dvd_rental_app.pdb
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/obj/Debug/net7.0/dvd_rental_app.genruntimeconfig.cache
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/obj/Debug/net7.0/ref/dvd_rental_app.dll
+/Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/NewRelic.Api.Agent.dll
