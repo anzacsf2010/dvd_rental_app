@@ -14,15 +14,13 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly ApplicationDbContext _db;
     private readonly UserManager<IdentityUser> _userManager;
-    private readonly HttpContext _session;
 
 
-    public HomeController(ILogger<HomeController> logger, ApplicationDbContext db, UserManager<IdentityUser> userManager, HttpContext session)
+    public HomeController(ILogger<HomeController> logger, ApplicationDbContext db, UserManager<IdentityUser> userManager)
     {
         _logger = logger;
         _db = db;
         _userManager = userManager;
-        _session = session;
     }
 
 
