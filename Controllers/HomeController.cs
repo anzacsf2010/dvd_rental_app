@@ -27,6 +27,7 @@ public class HomeController : Controller
     public DbSet<Movie> Movie { get; set; } = default!;
 
 #pragma warning disable CS8600, CS8602 // Dereference of a possibly null reference.
+    [Trace]
     [Route("/")]
     [Route("Home/")]
     [Route("Home/Index")]
@@ -41,6 +42,7 @@ public class HomeController : Controller
     }
 
 
+    [Trace]
     [Route("Home/Movies")]
     public async Task<IActionResult> Movies()
     {
@@ -74,6 +76,7 @@ public class HomeController : Controller
     }
 
 
+    [Trace]
     [Authorize]
     [Route("Home/Movie/Details/{id}")]
     public async Task<IActionResult> MovieDetails(int id)
@@ -109,6 +112,7 @@ public class HomeController : Controller
     }
 
 
+    [Trace]
     [Authorize]
     [Route("Home/MoviesByGenre/{genre}")]
     public async Task<IActionResult> MoviesByGenre(string genre)
