@@ -27,7 +27,7 @@
                 <td>@Model[item].Title</td>
                 <td>@Model[item].Cast</td>
                 <td>@Model[item].ReleaseDate</td>
-                <td>@Model[item].Genre</td>
+                <td><a asp-controller="Home" asp-action="MoviesByGenre" asp-route-id="@Model[item].Genre">@Model[item].Genre</a></td>
             </tr>
         }
     </table>
