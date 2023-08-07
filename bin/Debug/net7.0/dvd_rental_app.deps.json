@@ -43,6 +43,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.8",
           "NewRelic.Agent": "10.13.0",
+          "NewRelic.Agent.Api": "10.13.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
           "Microsoft.AspNetCore.Antiforgery": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "7.0.0.0",
@@ -1951,6 +1952,17 @@
         }
       },
       "NewRelic.Agent/10.13.0": {},
+      "NewRelic.Agent.Api/10.13.0": {
+        "runtime": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.13.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NewRelic.Api.Agent.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -5681,6 +5693,13 @@
       "sha512": "sha512-3xXxBqR+Br2Ostgpa5qhJeXAxbdQnm+Pv5sHIxWglP6U1Y1WR1MR0/pm2FU1KQLGeRWPIN1ENV8NEq5XLQ2VZw==",
       "path": "newrelic.agent/10.13.0",
       "hashPath": "newrelic.agent.10.13.0.nupkg.sha512"
+    },
+    "NewRelic.Agent.Api/10.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-emJVdFK9GXdwMik0SI6rJFmEpgoli9eWBLBwpQYoCpHewtbFcYDXWdON8jmvVR6zTip5xzgiRf7pNdMzw4g7iA==",
+      "path": "newrelic.agent.api/10.13.0",
+      "hashPath": "newrelic.agent.api.10.13.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
