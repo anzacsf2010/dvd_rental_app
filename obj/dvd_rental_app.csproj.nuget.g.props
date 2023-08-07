@@ -537,6 +537,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui/7.0.9/build/Microsoft.AspNetCore.Identity.UI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui/7.0.9/build/Microsoft.AspNetCore.Identity.UI.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgNewRelic_Agent_Api Condition=" '$(PkgNewRelic_Agent_Api)' == '' ">/Users/andy/.nuget/packages/newrelic.agent.api/10.13.0</PkgNewRelic_Agent_Api>
     <PkgNewRelic_Agent Condition=" '$(PkgNewRelic_Agent)' == '' ">/Users/andy/.nuget/packages/newrelic.agent/10.13.0</PkgNewRelic_Agent>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/andy/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_CodeAnalysis_AnalyzerUtilities Condition=" '$(PkgMicrosoft_CodeAnalysis_AnalyzerUtilities)' == '' ">/Users/andy/.nuget/packages/microsoft.codeanalysis.analyzerutilities/3.3.0</PkgMicrosoft_CodeAnalysis_AnalyzerUtilities>
