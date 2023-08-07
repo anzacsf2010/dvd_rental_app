@@ -14,21 +14,20 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
     private readonly ApplicationDbContext _db;
     private readonly UserManager<IdentityUser> _userManager;
-    private readonly HttpContext _session;
 
 
-    public HomeController(ILogger<HomeController> logger, ApplicationDbContext db, UserManager<IdentityUser> userManager, HttpContext session)
+    public HomeController(ILogger<HomeController> logger, ApplicationDbContext db, UserManager<IdentityUser> userManager)
     {
         _logger = logger;
         _db = db;
         _userManager = userManager;
-        _session = session;
     }
 
 
     public DbSet<Movie> Movie { get; set; } = default!;
 
 #pragma warning disable CS8600, CS8602 // Dereference of a possibly null reference.
+    [Trace]
     [Route("/")]
     [Route("Home/")]
     [Route("Home/Index")]
@@ -43,6 +42,7 @@ public class HomeController : Controller
     }
 
 
+    [Trace]
     [Route("Home/Movies")]
     public async Task<IActionResult> Movies()
     {
@@ -76,6 +76,7 @@ public class HomeController : Controller
     }
 
 
+    [Trace]
     [Authorize]
     [Route("Home/Movie/Details/{id}")]
     public async Task<IActionResult> MovieDetails(int id)
@@ -111,6 +112,7 @@ public class HomeController : Controller
     }
 
 
+    [Trace]
     [Authorize]
     [Route("Home/MoviesByGenre/{genre}")]
     public async Task<IActionResult> MoviesByGenre(string genre)
