@@ -1,0 +1,21 @@
+﻿@model IList<dvd_rental_app.Models.CartItem>;
+
+@{
+    ViewData["Title"] = "Your personal cart";
+}
+<h1 class="mb-3">@ViewData["Title"] (@Model.Count)</h1>
+@if (Model.Count > 0)
+{
+    @foreach (var item in Model)
+    {
+    <div>
+        <h4>@item.Title</h4>
+        <p>Id: @item.MovieId</p>
+        <p>Date: @item.AddedToCartDate</p>
+    </div>
+    }
+}
+else
+{
+        <p>Your personal cart is empty.</p>
+}

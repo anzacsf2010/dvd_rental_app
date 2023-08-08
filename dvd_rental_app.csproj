@@ -14,6 +14,7 @@
     <None Remove="Areas\Identity\Data\" />
     <None Remove="Migrations\" />
     <None Remove="Scripts\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\launchSettings.json_production">
@@ -44,6 +45,7 @@
     <Folder Include="Areas\Identity\Data\" />
     <Folder Include="Migrations\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Properties\launchSettings %28copy%29.json" />
