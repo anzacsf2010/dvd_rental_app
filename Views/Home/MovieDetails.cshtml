@@ -21,6 +21,9 @@
         <p><strong>Homepage:</strong> <a href="@Model.Homepage">@Model.Homepage</a></p>
     }
 </div>
+<div class="mb-4">
+    <a type="button" class="btn btn-primary" asp-controller="Home" asp-action="UpdateCart" asp-route-id="@Model.MovieId">Add to / Remove from Cart</a>
+</div>
 <div>
     <a type="button" class="btn btn-primary" asp-controller="Home" asp-action="Movies">Return to movie list</a>
 </div>

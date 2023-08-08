@@ -395,6 +395,7 @@
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/NewRelic.Api.Agent.dll
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/Npgsql.dll
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
@@ -614,4 +615,3 @@
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/obj/Debug/net7.0/dvd_rental_app.pdb
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/obj/Debug/net7.0/dvd_rental_app.genruntimeconfig.cache
 /Users/andy/Personal-Projects-Repos/dvd_rental_app/obj/Debug/net7.0/ref/dvd_rental_app.dll
-/Users/andy/Personal-Projects-Repos/dvd_rental_app/bin/Debug/net7.0/NewRelic.Api.Agent.dll

@@ -13,5 +13,6 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     }
 
     public DbSet<Movie> Movie { get; set; } = default!;
+    public DbSet<CartItem> CartItems { get; set; } = default!;
 }
 
