@@ -7,8 +7,6 @@ using Microsoft.AspNetCore.Authorization;
 using NewRelic.Api.Agent;
 using Microsoft.AspNetCore.Identity;
 using dvd_rental_app.Services;
-using Humanizer.Localisation;
-using dvd_rental_app.Migrations;
 
 namespace dvd_rental_app.Controllers;
 
