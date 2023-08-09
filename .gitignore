@@ -1,2 +1,3 @@
 appsettings.json
 Properties/launchsettings.json
+Views/Shared/_Layout.cshtml
