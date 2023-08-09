@@ -53,7 +53,7 @@ public class HomeController : Controller
     {
         if (_db.Movie == null)
         {
-            _logger.LogError("Database data for movies not found. Pelase check and try again!");
+            _logger.LogError("Database data for movies not found. Please check and try again!");
             return NotFound();
         }
 
@@ -91,7 +91,7 @@ public class HomeController : Controller
 
         if (movie == null)
         {
-            _logger.LogError("Could not find a movie with the specified ID. Pelase check and try again!");
+            _logger.LogError("Could not find a movie with the specified ID. Please check and try again!");
             return NotFound();
         }
 
@@ -129,7 +129,7 @@ public class HomeController : Controller
 
         if (movies == null)
         {
-            _logger.LogError("Could not find any movie with the specified genre. Pelase check and try again!");
+            _logger.LogError("Could not find any movie with the specified genre. Please check and try again!");
         }
 
         var user = await _userManager.GetUserAsync(User);
