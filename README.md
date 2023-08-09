@@ -27,7 +27,9 @@
 
 5. Run migrations using the .NET commands to create the necessary database tables from the Identity, Movie, and CartItems models. Documentation: https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
 
-6. Import the Movie.csv data into the Movie table to populate the data in the table. 
+6. Import the Movie.csv data into the Movie table to populate the data in the table.
+
+7. Update the wrapper shell script at Scripts/AppStart.sh file to reflect the exact absolute path of the newrelic directory, newrelic.config file, and the libNewRelicProfiler.so file, as this may change when you clone this locally.
 
 
 For questions and concerns, please email: astfort@newrelic.com. 
